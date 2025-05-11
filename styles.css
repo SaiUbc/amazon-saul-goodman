@@ -1,0 +1,244 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+/* For Navigation Bar 1 */
+
+.navigation-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: medium;
+  min-width: max-content;
+}
+
+.delivery-address {
+  border: 1px solid #232f3e;
+  width: 100%;
+}
+
+.delivery-address:hover {
+  border-color: white;
+}
+
+.deliver-to {
+  font-size: medium;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+}
+
+.location {
+  font-weight: bold;
+  padding: 12px;
+}
+
+.navigation-bar input {
+  height: 35px;
+  margin: 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.navigation-bar input:hover {
+  border-color: #ff9900;
+}
+
+.navigation-bar button {
+  background-color: #ff9900;
+  margin: 0;
+  height: 50px;
+  border-radius: 3px;
+}
+
+.navigation-bar button:hover {
+  background-color: #d07d02;
+}
+
+.navigation-bar select {
+  width: 80px;
+  height: 45px;
+  border: none;
+  background-color: #232f3e;
+  color: white;
+  border: 1px solid #232f3e;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.navigation-bar select:hover {
+  border-color: white;
+}
+
+.navigation-bar li {
+  color: white;
+  font-weight: bolder;
+}
+
+.navigation-bar {
+  background-color: #232f3e;
+  min-width: max-content;
+}
+
+.navigation-bar .account-button {
+  border: 1px solid #232f3e;
+  padding: 12px;
+}
+
+.navigation-bar .account-button:hover {
+  border-color: white;
+}
+
+.navigation-bar .cart-button {
+  border: 1px solid #232f3e;
+  padding: 12px;
+}
+
+.navigation-bar .cart-button:hover {
+  border-color: white;
+}
+
+/* For Navigation Bar 2*/
+.navigation-bar-2 {
+  background-color: #37475a;
+  height: 41px;
+  min-width: max-content;
+}
+
+.navigation-bar-2 ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.navigation-bar-2 li {
+  margin-top: 10px;
+}
+
+.navigation-bar-2 a {
+  font-size: smaller;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  padding: 10px;
+  font-weight: bolder;
+  border: 2px solid #37475a;
+}
+
+.navigation-bar-2 a:hover {
+  border-color: white;
+}
+
+/* For Announcement Bar */
+.announcement-bar {
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ff9900;
+}
+
+.announcement-bar a {
+  font-size: smaller;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  padding: 20px;
+  font-weight: 450;
+}
+
+/* For Main Grid Box */
+
+.main-grid-container {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 90px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 405px);
+  gap: 5px;
+}
+
+.item {
+  background-color: white;
+  border: 2px solid #232f3e;
+}
+
+/* For Individual Items inside the Grid Box */
+.item-image img {
+  object-fit: contain;
+  border: 1px solid whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.item-title {
+  margin-top: 5px;
+  color: black;
+  font-size: 550;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.item-description .price {
+  margin-top: 2px;
+  margin-bottom: none;
+  color: black;
+  font-size: 500;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.item .item-buttons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item-buttons button {
+  text-decoration: none;
+  font-size: larger;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.item-buttons button:hover {
+  background-color: rgb(219, 218, 218);
+}
+
+/* back to top bar */
+.back-to-top-bar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #37475a;
+  align-items: center;
+  height: 55px;
+}
+
+.back-to-top-bar a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+}
+
+/* footer bar */
+
+.footer {
+  background-color: #232f3e;
+}
